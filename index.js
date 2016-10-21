@@ -1,8 +1,14 @@
 'use strict';
 var parseTag = require('virtual-hyperscript/parse-tag');
-var React = require('react');
+var React = require('karet');
+var hh = require('hyperscript-helpers');
 
 module.exports = h;
+
+var hhh = hh(h)
+Object.keys(hhh).forEach(function (k) {
+  h[k] = hhh[k];
+})
 
 function h(componentOrTag, properties, children) {
   // If a child array or text node are passed as the second argument, shift them
