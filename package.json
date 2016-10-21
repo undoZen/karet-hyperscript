@@ -1,7 +1,7 @@
 {
   "name": "karet-hyperscript",
   "description": "Hyperscript syntax for React.js markup",
-  "version": "2.4.1",
+  "version": "2.5.0",
   "homepage": "https://github.com/undoZen/karet-hyperscript",
   "author": {
     "name": "undoZen",
