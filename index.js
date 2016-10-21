@@ -1,6 +1,6 @@
 'use strict';
 var parseTag = require('virtual-hyperscript/parse-tag');
-var React = require('karet');
+var React = require('karet').default;
 var hh = require('hyperscript-helpers');
 
 module.exports = h;
