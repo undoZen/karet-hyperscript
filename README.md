@@ -1,11 +1,11 @@
-# react-hyperscript [![Build Status](https://travis-ci.org/mlmorg/react-hyperscript.png?branch=master)](https://travis-ci.org/mlmorg/react-hyperscript)
+# karet-hyperscript
 
-Hyperscript syntax for React.js markup.
+Hyperscript syntax for React.js markup using [karet](https://github.com/calmm-js/karet).
 
 ## Usage
 
 ```js
-var h = require('react-hyperscript');
+var h = require('karet-hyperscript');
 var React = require('react');
 
 var AnotherComponent = require('./another-component');

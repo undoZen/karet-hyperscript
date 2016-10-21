@@ -1,14 +1,18 @@
 {
-  "name": "react-hyperscript",
+  "name": "karet-hyperscript",
   "description": "Hyperscript syntax for React.js markup",
   "version": "2.4.1",
-  "homepage": "https://github.com/mlmorg/react-hyperscript",
+  "homepage": "https://github.com/undoZen/karet-hyperscript",
   "author": {
-    "name": "Matt Morgan",
-    "email": "matt@mlmorg.com",
-    "url": "http://mlmorg.com"
+    "name": "undoZen",
+    "email": "opensource@undozen.com",
+    "url": "http://www.undozen.com"
   },
   "keywords": [
+    "frp",
+    "reactive",
+    "calmm",
+    "karet",
     "react",
     "react.js",
     "hyperscript",
@@ -17,19 +21,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mlmorg/react-hyperscript.git"
+    "url": "git://github.com/undoZen/karet-hyperscript.git"
   },
   "bugs": {
-    "url": "https://github.com/mlmorg/react-hyperscript/issues"
+    "url": "https://github.com/undoZen/karet-hyperscript/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/mlmorg/react-hyperscript/blob/master/LICENSE"
+      "url": "https://github.com/undoZen/karet-hyperscript/blob/master/LICENSE"
     }
   ],
   "main": "index.js",
   "dependencies": {
+    "karet": "^0.1.3",
     "react": ">= 0.12.0 < 16.0.0",
     "virtual-hyperscript": "^4.5.0"
   },
